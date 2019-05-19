@@ -1,0 +1,114 @@
+div.gen_blogpost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+div.gen_blogpost  p, div.gen_blogpost  ul, div.gen_blogpost  ol {
+    margin: 20px 0 !important;
+    text-align: left;
+    line-height: 1.5em;
+    color: 'red';
+    width: 90%;
+    height: auto;
+}
+
+div.gen_blogpost  ul{
+    list-style: disc;
+    padding: 0 5%;
+}
+
+div.gen_blogpost  h3 {
+    margin: 15px 0 !important;
+    text-align: left;
+    color: 'red';
+    width: 90%;
+    height: auto;
+}
+
+div.gen_blogpost  h4 {
+    margin: 15px 0 !important;
+    text-align: right;
+    color: 'red';
+    width: 90%;
+    height: auto;
+}
+
+div.gen_blogpost img {
+    display: flex;
+    /* align-self: center; */
+    margin: 0 auto;
+    width: 70% ;
+    height: auto;
+    background-color: #000;
+} 
+
+/* div.gen_blogpost pre code { */
+div.gen_blogpost code {
+    display: inline-flex;
+    /* align-self: center; */
+    /* margin: 20px auto;
+    overflow: auto;
+    color: #ffca28;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; */
+    background-color: #000;
+    /* word-wrap: none; */
+    /* white-space: pre; */
+}
+
+div.gen_blogpost pre {
+    height: auto;
+    max-height: 150px;
+    background-color: #000;
+    /* padding: 10px; */
+    overflow: auto;
+    width: 90%;
+    max-width: 90%;
+}
+
+div.gen_blogpost code {
+    display: inline-flex;
+    /* margin: 20px auto; */
+    height:  auto;
+    /* overflow: auto; */
+    color: #ffca28;
+    padding: 10px;
+    /*
+    height: auto;
+    max-height: 150px; */
+    background-color: #000;
+    /* word-wrap: none; */
+    /* white-space: pre; */
+} 
+
+div.gen_blogpost pre code {
+    width: 100%;
+}
+
+div.gen_blogpost p code {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 600px){
+    div.gen_blogpost img {
+        display: flex;
+        /* align-self: center; */
+        margin: 0 auto;
+        width: 90% ;
+        height: auto;
+        background-color: #000;
+    }
+    div.gen_blogpost  h3, div.gen_blogpost  h4 {
+        margin: 15px 0 !important;
+        text-align: center;
+        color: 'red';
+        width: 90%;
+        height: auto;
+    } 
+}

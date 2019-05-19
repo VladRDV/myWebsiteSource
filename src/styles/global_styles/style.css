@@ -1,0 +1,26 @@
+/* @import url('https://fonts.googleapis.com/css?family=Muli'); */
+/* @import url('https://fonts.googleapis.com/css?family=Nunito'); */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+@font-face {
+    font-family: Asteroids-Bold;
+    src: url('../../../static/fonts/Hyperspace Bold.otf');
+}
+@font-face {
+    font-family: Asteroids;
+    src: url('../../../static/fonts/Hyperspace.otf');
+}
+.asteroids_bold{
+   font-family: 'Asteroids-Bold' !important;
+}
+.asteroids{
+    font-family: 'Asteroids' !important;
+}
+.normal_font{
+    font-family: 'Raleway', sans-serif !important;
+}
+.terminal{
+    font-family: 'VT323', monospace !important;
+}
+
