@@ -2,12 +2,12 @@ import { StyleSheet } from "aphrodite";
 import { 
     // std_bg,
     white,
-    trns,
+    // trns,
     // danger,
     form_back,
-    read_back,
+    // read_back,
     black,
-    std_bg,
+    // std_bg,
 } from '../colors/colors';
 export const blog_style = StyleSheet.create({
     main:{

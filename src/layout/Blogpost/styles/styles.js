@@ -3,7 +3,7 @@ import {
     // std_bg, `
     white,
     primary,
-    form_back,
+    // form_back,
     black, 
 } from '../../../styles/colors/colors';
 export const blogpost_styles = StyleSheet.create({

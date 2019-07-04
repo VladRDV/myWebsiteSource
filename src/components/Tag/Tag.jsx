@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { css } from 'aphrodite';
 import { tag_styles as tag } from './styles/styles';
 import { black, white } from '../../styles/colors/colors';

@@ -1,5 +1,6 @@
 import { StyleSheet } from "aphrodite";
 import { trns } from '../colors/colors';
+const _olh900 = '@media screen and (orientation: landscape) and (max-height: 400px)';
 export const index_style = StyleSheet.create({
     main:{
         flex: 1,
@@ -12,6 +13,9 @@ export const index_style = StyleSheet.create({
         width: '100%',
         background: trns,
         // overflow: 'hidden',
+        [_olh900]:{
+            paddingTop:'30px'
+        }
     },
     name: {
         height: 'auto',
@@ -27,5 +31,8 @@ export const index_style = StyleSheet.create({
         '@media screen and (max-width: 768px)':{
             fontSize: '2rem',
         },
+        [_olh900]:{
+            marginBottom:0
+        }
     },
 });

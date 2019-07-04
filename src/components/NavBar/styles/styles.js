@@ -58,6 +58,7 @@ export const navbar_styles = StyleSheet.create({
     mobileNav:{
         flexDirection:'column',
         alignItems: 'stretch',
+        overflowY:'hidden',
         justifyContent: 'flex-start',
         display:'none',
         transition: '.8s background-color',
@@ -85,22 +86,47 @@ export const navbar_styles = StyleSheet.create({
         }
     },
     mobileMenu_close:{
-        height: 0,
+        minHeight: 0,
         opacity: 0,
     },
     mobileMenu_open:{
-        height: `calc(100vh - ${mobileMenuOpenerHeight})`,
+        minHeight: `calc(100vh - ${mobileMenuOpenerHeight})`,
         opacity: 1,
     },
-    mobileMenuBtn:{
+    mobileMenuBtn_open:{
         display: 'flex',
-        flex: .1,
+        flexGrow: .1,
+        flexShrink: 0,
+        overflowY:'hidden',
         backgroundColor: trns,
         cursor: 'pointer',
         fontSize: '1.1rem',
         fontWeight: '400',
         justifyContent:'center',
         // alignSelf:'stretch',
+        alignItems: 'center',
+        textDecoration:'none',
+        border:'1px solid',
+        color: white,
+        borderColor: trns,
+        // [_bg576_land]:{
+        '@media screen and (max-width: 475px) and (orientation: landscape)':{
+            minWidth:'95px',
+        }
+    },
+    mobileMenuBtn_close:{
+        display: 'flex',
+        flexGrow: .1,
+        flexShrink: 0,
+        overflowY:'hidden',
+        backgroundColor: trns,
+        cursor: 'pointer',
+        fontSize: '1.1rem',
+        fontWeight: '400',
+        justifyContent:'center',
+        // alignSelf:'stretch',
+        height:0,
+        transition: '.8 height',
         alignItems: 'center',
         textDecoration:'none',
         border:'1px solid',

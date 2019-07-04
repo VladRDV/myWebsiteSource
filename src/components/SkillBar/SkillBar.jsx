@@ -28,7 +28,10 @@ class SkillBar extends Component {
     }
     render(){
         const { num, grade, color, skill } = this.props;
-        const { grade_line_width, grade_visible } = this.state;
+        const { 
+            grade_line_width, 
+            // grade_visible, 
+        } = this.state;
         return (
             <li className={`${css(sbs.skill)}`}>
                 <span className={`${css(sbs.skill_txt, sbs.skill_txt_bg)}`}>{skill}</span>

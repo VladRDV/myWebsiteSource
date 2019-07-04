@@ -1,14 +1,14 @@
 import { StyleSheet } from "aphrodite";
-import { 
-    // std_bg,
-    white,
-    trns,
-    // danger,
-    form_back,
-    read_back,
-    black,
-    std_bg,
-} from '../../../styles/colors/colors';
+// import { 
+//     // std_bg,
+//     white,
+//     trns,
+//     // danger,
+//     form_back,
+//     read_back,
+//     black,
+//     std_bg,
+// } from '../../../styles/colors/colors';
     
 export const tag_styles = StyleSheet.create({
     main:{

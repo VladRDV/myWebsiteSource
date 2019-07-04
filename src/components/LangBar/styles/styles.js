@@ -1,8 +1,8 @@
 import { StyleSheet } from "aphrodite";
 import { 
     // std_bg,
-    white,
-    trns,
+    // white,
+    // trns,
     // danger,
     black,
     // read_back,

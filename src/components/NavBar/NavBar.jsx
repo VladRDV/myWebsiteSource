@@ -15,6 +15,7 @@ class Navigation extends Component {
 		this.defineMenuStyles = this.defineMenuStyles.bind(this);
 		this.defineNavStyles = this.defineNavStyles.bind(this);
 		this.linkNavToggle = this.linkNavToggle.bind(this);
+		this.defineMobileBtnStyles = this.defineMobileBtnStyles.bind(this);
 	}
 	toggleMobileMenu(){
 		this.setState({ mobileNavigatorMode: !this.state.mobileNavigatorMode });
@@ -29,7 +30,14 @@ class Navigation extends Component {
 	defineMenuStyles(){
 		const { mobileNavigatorMode } = this.state;
 		const mobileMenuClose = [ns.mobileMenu, ns.mobileMenu_close],
-			mobileMenuOpen = [ns.mobileMenu, ns.mobileMenu_open];
+			  mobileMenuOpen = [ns.mobileMenu, ns.mobileMenu_open];
+		const s =  mobileNavigatorMode? mobileMenuOpen : mobileMenuClose;
+		return css(...s);
+	}
+	defineMobileBtnStyles(){
+		const { mobileNavigatorMode } = this.state;
+		const mobileMenuClose = [ns.mobileMenuBtn_close],
+			  mobileMenuOpen = [ns.mobileMenuBtn_open];
 		const s =  mobileNavigatorMode? mobileMenuOpen : mobileMenuClose;
 		return css(...s);
 	}
@@ -59,11 +67,11 @@ class Navigation extends Component {
 			</nav>
 			<nav className={`${this.defineMobileNavStyles()}`}>
 				<div className={`${this.defineMenuStyles()}`}>
-					<Link onClick={()=>this.linkNavToggle(Routes.home)} to={Routes.home} state={{terminalNoShow:true}} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Home</Link>
-					<Link onClick={()=>this.linkNavToggle(Routes.portfolio)} to={Routes.portfolio} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Portfolio</Link>
-					<Link onClick={()=>this.linkNavToggle(Routes.blog)} to={Routes.blog} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Blog</Link>
-					<Link onClick={()=>this.linkNavToggle(Routes.about)} to={Routes.about} className={`normal_font ${css(ns.mobileMenuBtn)}`}>About</Link>
-					<Link onClick={()=>this.linkNavToggle(Routes.contact)} to={Routes.contact} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Contact</Link>
+					<Link onClick={()=>this.linkNavToggle(Routes.home)} to={Routes.home} state={{terminalNoShow:true}} className={`normal_font ${this.defineMobileBtnStyles()}`}>Home</Link>
+					<Link onClick={()=>this.linkNavToggle(Routes.portfolio)} to={Routes.portfolio} className={`normal_font ${this.defineMobileBtnStyles()}`}>Portfolio</Link>
+					<Link onClick={()=>this.linkNavToggle(Routes.blog)} to={Routes.blog} className={`normal_font ${this.defineMobileBtnStyles()}`}>Blog</Link>
+					<Link onClick={()=>this.linkNavToggle(Routes.about)} to={Routes.about} className={`normal_font ${this.defineMobileBtnStyles()}`}>About</Link>
+					<Link onClick={()=>this.linkNavToggle(Routes.contact)} to={Routes.contact} className={`normal_font ${this.defineMobileBtnStyles()}`}>Contact</Link>
 				</div>
 				<div className={`${css(ns.mobileMenuOpenerContainer)}`}>
 					<button onClick={()=>this.toggleMobileMenu()} className={`${css(ns.mobileMenuOpener)}`}>Open menu</button>

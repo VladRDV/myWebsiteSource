@@ -5,7 +5,7 @@ import {
     trns,
     // danger,
     black,
-    read_back,
+    // read_back,
 } from '../../../styles/colors/colors';
 export const project_styles = StyleSheet.create({
     project:{

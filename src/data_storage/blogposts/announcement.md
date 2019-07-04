@@ -1,6 +1,6 @@
 ---
 path: "/blog-announcement"
-date: "2019-05-18"
+date: "2019-07-04"
 title: "Blog Announcement"
 tags: ['Announcement']
 ---
