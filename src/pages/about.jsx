@@ -26,8 +26,8 @@ export default ({ location }) => {
 						<span style={{ fontWeight: 'bold' }}>What I do?</span>
 						<br />
 						<br />
-						While the base of my activity is Web-Development, I have a lot of hobbies, and from time to time I challenge myself in areas that share
-						borders with what I usually do in order to keep an open the mind.
+						While the base of my activity are web and mobile development, I have a lot of hobbies, and from time to time I challenge myself in areas
+						that share borders with what I usually do in order to keep an open the mind.
 						<br />
 						I'm also a fond of learning.
 						<br />
