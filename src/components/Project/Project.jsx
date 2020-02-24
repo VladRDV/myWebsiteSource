@@ -18,6 +18,7 @@ const Project = ({ title, links, desc, contr }) => {
 			<div className={`${css(ps.alignCenter, ps.bottom)}`}>
 				{links.map((el, ind) => (
 					<a
+						key={`link-${ind}`}
 						href={el.href}
 						className={`${ind < links.length - 1 ? css(ps.alignCenter, ps.to_project, ps.link_margin) : css(ps.alignCenter, ps.to_project)}`}
 						target="_blank"
