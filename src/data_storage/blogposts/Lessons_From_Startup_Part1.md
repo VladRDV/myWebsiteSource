@@ -1,6 +1,6 @@
 ---
 path: "/what-ive-learned-from-beeing-a-developer-in-a-startup"
-date: "2020-02-26"
+date: "2020-02-27"
 title: "What I’ve learned from being a developer in a startup - Part I"
 tags: ['Soft skills', 'Developer life', 'Startups', 'Best practices', 'Code quality']
 ---
@@ -82,7 +82,7 @@ Finding productive ways to be lazy is a great idea.
 Resting from time to time, finding time for friends and family is the best idea you can get.
 
 ### Part I - Summary
-* don't sacrifice quality for development speed, it is not worth it
+* avoid sacrificing quality for development speed
 * learn to negotiate and communicate
 * be disciplined as an individual developer and as a part of a development team
 * don't burn out

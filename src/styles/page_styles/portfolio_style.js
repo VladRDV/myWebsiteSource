@@ -108,6 +108,7 @@ export const portfolio_style = StyleSheet.create({
 	},
 	skills_list: {
 		width: '100%',
+		maxWidth: '100%',
 		height: 'auto',
 		paddingBottom: '20px'
 	},
@@ -119,11 +120,9 @@ export const portfolio_style = StyleSheet.create({
 		overflowY: 'scroll',
 		overflowX: 'hidden',
 		height: '100%',
-		paddingRight: '10px',
-		width: 'calc(100% + 12px)',
-		'@media screen and (max-width: 700px)': {
-			paddingRight: '20px'
-		}
+		paddingRight: '5px',
+		paddingLeft: '5px',
+		width: '100%'
 	},
 	gradient: {
 		position: 'absolute',
