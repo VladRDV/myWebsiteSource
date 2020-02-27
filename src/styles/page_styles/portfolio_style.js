@@ -139,13 +139,13 @@ export const portfolio_style = StyleSheet.create({
 		height: 'auto',
 		paddingBottom: '20px',
 		'@media screen and (max-width: 1500px)': {
-			width: '92.5%',
-			paddingLeft: '2.5%'
-		},
-		'@media screen  and (max-width: 1000px)': {
-			width: '100%',
-			paddingLeft: 0
+			width: '93.5%'
+			// paddingLeft: '2.5%'
 		}
+		// '@media screen  and (max-width: 1400px)': {
+		// 	width: '100%',
+		// 	paddingLeft: 0
+		// }
 	},
 
 	gradient: {
