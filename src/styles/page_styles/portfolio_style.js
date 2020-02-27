@@ -132,13 +132,13 @@ export const portfolio_style = StyleSheet.create({
 		width: '100%',
 		height: '100%',
 		overflowY: 'scroll',
-		paddingLeft: '11px',
-		paddingRight: '17px' /* Increase/decrease this value for cross-browser compatibility */,
-		boxSizing: 'content-box' /* So the width will be 100% + 17px */
-		// '@media screen and (max-width: 700px)': {
-		// 	paddingLeft: '5px',
-		// 	paddingRight: '14px'
-		// }
+		paddingLeft: '2%',
+		paddingRight: '4%' /* Increase/decrease this value for cross-browser compatibility */,
+		boxSizing: 'content-box' /* So the width will be 100% + 17px */,
+		'@media screen and (max-width: 700px)': {
+			paddingLeft: '1%'
+			// paddingRight: '5%'
+		}
 	},
 	gradient: {
 		position: 'absolute',
