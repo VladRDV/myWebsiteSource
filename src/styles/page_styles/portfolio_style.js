@@ -106,12 +106,6 @@ export const portfolio_style = StyleSheet.create({
 			gridRow: '3/5'
 		}
 	},
-	skills_list: {
-		width: '100%',
-		maxWidth: '100%',
-		height: 'auto',
-		paddingBottom: '20px'
-	},
 	scrollBarHider: {
 		// position: 'absolute',
 		// bottom: '-10px',
@@ -129,17 +123,31 @@ export const portfolio_style = StyleSheet.create({
 	scrollBarHiderChild: {
 		// https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll
 		// neat trick
-		width: '100%',
+		width: '110%',
 		height: '100%',
 		overflowY: 'scroll',
-		paddingLeft: '2%',
-		paddingRight: '4%' /* Increase/decrease this value for cross-browser compatibility */,
-		boxSizing: 'content-box' /* So the width will be 100% + 17px */,
-		'@media screen and (max-width: 700px)': {
-			paddingLeft: '1%'
-			// paddingRight: '5%'
+		// paddingLeft: 0,
+		// paddingRight: '1%' /* Increase/decrease this value for cross-browser compatibility */,
+		boxSizing: 'content-box' /* So the width will be 100% + 17px */
+		// '@media screen and (max-width: 1500px)': {
+		// 	width: '110%'
+		// }
+	},
+	skills_list: {
+		width: '95%',
+		maxWidth: '100%',
+		height: 'auto',
+		paddingBottom: '20px',
+		'@media screen and (max-width: 1500px)': {
+			width: '92.5%',
+			paddingLeft: '2.5%'
+		},
+		'@media screen  and (max-width: 1000px)': {
+			width: '100%',
+			paddingLeft: 0
 		}
 	},
+
 	gradient: {
 		position: 'absolute',
 		bottom: 0,
