@@ -31,7 +31,7 @@ In a startup there is a 90% chance that you’ll get to do something for the fir
 
 Don’t get me wrong, you MUST know your stuff and keep learning for as long as you breathe _( yes, I’ve said it)_, but when you work on a job, where you have multiple specialisations, you’ll get to the unknown regions sooner rather than later.
 
-But in these kind of situations delivering top quality solutions, may take more time, and you must admit that and ask for help or more time if needed. Some might say, that delivering code that just works can do the job, but in my opinion that is an illusion. From my experience, you’re just creating a debt, bad code will come to collect, and the bigger your system gets the harder it will be to fix the consequences of your past self’s bad decisions.
+But in these kind of situations delivering top quality solutions, may take more time, and you must admit that and ask for help or more time if needed. Some might say, that delivering code that just works can do the job, but in my opinion that is an illusion. From my experience, you’re just creating a debt, bad code will cost you in the long run, and the bigger your system gets the harder it will be to fix the consequences of your past self’s bad decisions.
 
 __Note:__ Solutions that just work(no code structure, no code quality check) have their place in software development, you can do it once in a while, problems come when using those solutions becomes a habit and 
 if 'just working' solutions are here to stay.
@@ -50,14 +50,12 @@ Don’t close off, being a part of a team is not just about working on a project
 You most certainly need to be able to do things on your own, but by communicating with people, you can detect mistakes more easily, get different perspective on a problem and new knowledge, that can speed up the process and improve quality.
 
 ### 4. Ego factor.
-I’m not talking about being nice to people, and being a team player, that stuff is a must and from my perspective is too obvious to talk too much about.
-
 I’m talking about the way you see your tasks, seeing them as an enjoyable challenges is awesome, it is a good thing, but again this is not a hackathon, someone is going to use your product, and they don’t care if you enjoy making it or not.
 
 ### 5. Murphy's law.
 > “Anything that can go wrong will go wrong”
 
-Just remember that, when you try to use _“I’ll do it later…”_ excuse
+Not always, but this is something you should remember about from time to time. It's not that you should be afraid of things going wrong, it's that you should not take potential problems likely, when you detect them.
 
 ### 6. Never stop learning and learn well.
 Startup job can devour all of your learning time, that’s how it is, but again if that is the case, talking to your team might lead to a solution for that problem. Even if you find yourself in a situation, where there is no time for learning new things, it is up to you to find a way, to find time. Exuses can't help you, but thinking youself and your team out of uncomfortable situation can.
@@ -69,9 +67,8 @@ _(I may or may not talk about learning how to learn in future blogposts)_
 
 As far as I know, trouble is coming, when you learning pattern is broken or non existent, when you start feeling stagnation.
 
-### 7. Learn not only coding, but communication and negotiating.
+### 7. Get better not only at coding, but at communication and negotiating as well.
 You’re doing everyone a favour by being aproachable, easier to talk to, easier to cooperate with.
-
 
 ### 8. Work hard, work smart, work with passion, but don’t burn yourself to a crisp.
 
@@ -82,11 +79,11 @@ Finding productive ways to be lazy is a great idea.
 Resting from time to time, finding time for friends and family is the best idea you can get.
 
 ### Part I - Summary
-* avoid sacrificing quality for development speed
+* do your best to avoid sacrificing quality for development speed
 * learn to negotiate and communicate
 * be disciplined as an individual developer and as a part of a development team
 * don't burn out
-* keep learning stuff
+* keep learning stuff, and make sure you have time for it
 
 __*I’d say that’s enough for now, there are more lessons I want to talk about, there is too much for a single blogpost, so se ya in Part II*__
 

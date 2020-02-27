@@ -145,12 +145,12 @@ export const navbar_styles = StyleSheet.create({
 		alignSelf: 'center',
 		borderRadius: '50px',
 		border: `1px solid ${black}`,
-		minWidth: '95px',
+		minWidth: '27%',
 		justifyContent: 'center',
 		alignItems: 'center',
-		height: '22px',
+		height: '32px',
 		whiteSpace: 'nowrap',
-		width: '21%'
+		width: '100px'
 	},
 	btn_danger: {
 		':hover': {
