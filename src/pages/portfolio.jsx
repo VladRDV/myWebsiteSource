@@ -99,10 +99,10 @@ export const query = graphql`
 //     }
 //   }
 // }
-{
-	/* this is going to be a grid of squares with nemes of category on them
+// {
+/* this is going to be a grid of squares with nemes of category on them
 			(each square with bg img and dark transparent filter over them, on hover filter fades away) */
-}
+// }
 
 // [{
 // 	"currently_learning":"Upgrading my Django/Python skills.\nLearning Django Channels.",
