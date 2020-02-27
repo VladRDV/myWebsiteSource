@@ -23,7 +23,7 @@ export const portfolio_style = StyleSheet.create({
 		// marginBottom:'50px',
 	},
 	container: {
-		width: '60%',
+		width: '68%',
 		height: '100%',
 		display: 'grid',
 		color: white,
@@ -113,16 +113,32 @@ export const portfolio_style = StyleSheet.create({
 		paddingBottom: '20px'
 	},
 	scrollBarHider: {
-		position: 'absolute',
-		bottom: '-10px',
-		left: '10px',
+		// position: 'absolute',
+		// bottom: '-10px',
+		// left: '15px',
 		display: 'block',
 		overflowY: 'scroll',
 		overflowX: 'hidden',
 		height: '100%',
-		paddingRight: '5px',
-		paddingLeft: '5px',
+		// paddingRight: '10px',
+		// paddingLeft: '5px',
+		overflow: 'hidden',
+
 		width: '100%'
+	},
+	scrollBarHiderChild: {
+		// https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll
+		// neat trick
+		width: '100%',
+		height: '100%',
+		overflowY: 'scroll',
+		paddingLeft: '11px',
+		paddingRight: '17px' /* Increase/decrease this value for cross-browser compatibility */,
+		boxSizing: 'content-box' /* So the width will be 100% + 17px */
+		// '@media screen and (max-width: 700px)': {
+		// 	paddingLeft: '5px',
+		// 	paddingRight: '14px'
+		// }
 	},
 	gradient: {
 		position: 'absolute',

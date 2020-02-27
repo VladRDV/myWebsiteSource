@@ -19,10 +19,12 @@ export default ({ location, data }) => {
 					</div>
 					<div className={`${css(pst.skills, pst.border)}`}>
 						<div className={`${css(pst.scrollBarHider)}`}>
-							<h3 className={`${css(pst.part_title)}`}>My skill list</h3>
-							<ul className={`${css(pst.skills_list, pst.upperTxtFormat)}`}>{renderSkills(content.skills.programmer_skills.set)}</ul>
-							<h3 className={`${css(pst.part_title)}`}>Natural languages</h3>
-							<ul className={`${css(pst.skills_list, pst.upperTxtFormat)}`}>{renderLangs(content.skills.human_languages.set)}</ul>
+							<div className={`${css(pst.scrollBarHiderChild)}`}>
+								<h3 className={`${css(pst.part_title)}`}>My skill list</h3>
+								<ul className={`${css(pst.skills_list, pst.upperTxtFormat)}`}>{renderSkills(content.skills.programmer_skills.set)}</ul>
+								<h3 className={`${css(pst.part_title)}`}>Natural languages</h3>
+								<ul className={`${css(pst.skills_list, pst.upperTxtFormat)}`}>{renderLangs(content.skills.human_languages.set)}</ul>
+							</div>
 						</div>
 						<div className={`${css(pst.gradient)}`} />
 					</div>
