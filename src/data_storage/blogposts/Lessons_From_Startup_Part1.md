@@ -72,7 +72,7 @@ You’re doing everyone a favour by being approachable, easier to talk to, easie
 
 ### 8. Work hard, work smart, work with passion, but don’t burn yourself to a crisp.
 
-![This is the alt-attribute for my image](/img/blogposts/freedom.jpg "Live, work,create")
+![Live, work,create](/img/blogposts/freedom.jpg "Live, work,create")
 
 Working hard is a good idea.
 Finding productive ways to be lazy is a great idea.

@@ -6,7 +6,7 @@ tags: ['Soft skills', 'Developer life', 'Startups', 'Best practices', 'Code qual
 ---
 
 ### Hello, everyone : )
-Let's continue where we stopped in *[Part I](/what-ive-learned-from-being-a-developer-in-a-startup)*. 
+Let's continue where we stopped in *[Part I](/what-ive-learned-from-beeing-a-developer-in-a-startup)*. 
 
 ### 9. Write code that others can understand, and make sure, that they understand it.
 Writing code with following best practices and maintaining good structure might not be enough, because code, that looks perfectly readable and structured to you might look like junk to someone else, we all have different habits and understanding of elegance.
@@ -75,5 +75,8 @@ In short non of these should be taken to the extremes, finding balance in discip
 
 I hope this blog is going to be of use to you, keep creating cool stuff : ) 
 
+![Stars](/img/blogposts/stars.jpg)
+
 Sea ya later.
 
+_Photo by [Bobby Stevenson](https://unsplash.com/@bobbystevenson) on Unsplash_
