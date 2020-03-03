@@ -29,7 +29,7 @@ That means SOLID, developer meetings, GRASP, pseudocode, best practices, design 
 ### 2. function makeQuality(time, skill){ ... }
 In a startup there is a 90% chance that you’ll get to do something for the first time, because being assigned to do different things is not uncommon in startup companies _( it does not seem like a good practice to me, but it is hot is)_
 
-Don’t get me wrong, you MUST know your stuff and keep learning for as long as you breathe _( yes, I’ve said it)_, but when you work on a job, where you have multiple specialisations, you’ll get to the unknown regions sooner rather than later.
+Don’t get me wrong, you MUST know your stuff and keep learning for as long as you breathe _( yes, I’ve said it)_, but when you work on a job, where you have multiple specializations, you’ll get to the unknown regions sooner rather than later.
 
 But in these kind of situations delivering top quality solutions, may take more time, and you must admit that and ask for help or more time if needed. Some might say, that delivering code that just works can do the job, but in my opinion that is an illusion. From my experience, you’re just creating a debt, bad code will cost you in the long run, and the bigger your system gets the harder it will be to fix the consequences of your past self’s bad decisions.
 
@@ -39,7 +39,7 @@ if 'just working' solutions are here to stay.
 __Note:__ I keep talking about top quality code, but let me tell, what I mean by that:
 * it works and passes all the tests with good performance _(thank you, Captain Obvious)_
 * other developers can easily read your code _(or at least it is not difficult)_
-* your project structure, naming and organisation is a result of a team’s communication, not just your imagination
+* your project structure, naming and organization is a result of a team’s communication, not just your imagination
 * your modules/classes/functions follow DRY and KISS principles, all code for a given task is here, and only here
 
 __Note:__ One more thing, I am talking about top quality code, top quality software product has even more criteria(like “it must solve user’s problem”, good UX/UI, security etc.)
@@ -53,22 +53,22 @@ You most certainly need to be able to do things on your own, but by communicatin
 I’m talking about the way you see your tasks, seeing them as an enjoyable challenges is awesome, it is a good thing, but again this is not a hackathon, someone is going to use your product, and they don’t care if you enjoy making it or not.
 
 ### 5. Murphy's law.
-> “Anything that can go wrong will go wrong”
+>*“Anything that can go wrong will go wrong.”*
 
 Not always, but this is something you should remember about from time to time. It's not that you should be afraid of things going wrong, it's that you should not take potential problems likely, when you detect them.
 
 ### 6. Never stop learning and learn well.
-Startup job can devour all of your learning time, that’s how it is, but again if that is the case, talking to your team might lead to a solution for that problem. Even if you find yourself in a situation, where there is no time for learning new things, it is up to you to find a way, to find time. Exuses can't help you, but thinking youself and your team out of uncomfortable situation can.
+Startup job can devour all of your learning time, that’s how it is, but again if that is the case, talking to your team might lead to a solution for that problem. Even if you find yourself in a situation, where there is no time for learning new things, it is up to you to find a way, to find time. Excuses can't help you, but thinking yourself and your team out of uncomfortable situation can.
 
 Some might say _"I learn as I go"_, and that is great, but learning on the go does have it’s flaws, most notable is not getting the big picture, when it comes to technology you’re using, as a result you are sacrificing quality for speed again, and code quality debt will come to haunt you and your company anyway, so is it really worth it?
 
 So healthy learning patterns must take place in your professional life, for me it came out to be 40% theory and 60% practice and experiments.
 _(I may or may not talk about learning how to learn in future blogposts)_
 
-As far as I know, trouble is coming, when you learning pattern is broken or non existent, when you start feeling stagnation.
+As far as I know, trouble is coming, when your learning pattern is broken or non-existent, when you start feeling stagnation.
 
 ### 7. Get better not only at coding, but at communication and negotiating as well.
-You’re doing everyone a favour by being aproachable, easier to talk to, easier to cooperate with.
+You’re doing everyone a favour by being approachable, easier to talk to, easier to cooperate with.
 
 ### 8. Work hard, work smart, work with passion, but don’t burn yourself to a crisp.
 
@@ -85,7 +85,7 @@ Resting from time to time, finding time for friends and family is the best idea 
 * don't burn out
 * keep learning stuff, and make sure you have time for it
 
-__*I’d say that’s enough for now, there are more lessons I want to talk about, there is too much for a single blogpost, so se ya in Part II*__
+__*I’d say that’s enough for now, there are more lessons I want to talk about, there is too much for a single blogpost, so se ya in [Part II](/what-ive-learned-from-being-a-developer-in-a-startup-part-2)*__
 
 _Photo by [Nghia Le](https://unsplash.com/@lephunghia) on Unsplash_
  
