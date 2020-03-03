@@ -44,7 +44,7 @@ Realism in this case means, that you must know your current limits, know how muc
 Pragmatism means, that everything in your work must serve a purpose, best practices must not be followed just because you’ve read about those a few days ago, technology must not be used just because it is the newest thing around. Every concept, every line of code, every meeting must add something to the final product or conditions it is being developed in *(saving you time, making it easier to do your job etc.)*.
 
 ### 13. Validate your solutions before you implement them.
-To do so write pseudocode and look at number of cases you need to handle
+To do so write pseudocode and look at number of cases you need to handle.
 Even if solution for a problem is already in your head, google it, just to see if there is a better alternative.
 
 ### 14. Be ready for changes.
