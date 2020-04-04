@@ -1,5 +1,5 @@
 {
-	"name": "gatsby-starter-hello-world",
+	"name": "vradov-space",
 	"private": true,
 	"description": "A simplified bare-bones starter for Gatsby",
 	"version": "0.1.2",
@@ -34,7 +34,7 @@
 		"react-router-dom": "^4.3.1",
 		"redux": "^4.0.1",
 		"redux-thunk": "^2.3.0",
-		"sharp": "^0.21.3"
+		"sharp": "^0.25.2"
 	},
 	"repository": {
 		"type": "git",

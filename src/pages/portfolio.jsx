@@ -8,7 +8,7 @@ import SkillBar from '../components/SkillBar/SkillBar';
 import LangBar from '../components/LangBar/LangBar';
 
 export default ({ location, data }) => {
-	const content = data.allJson.edges[0].node;
+	const content = data.allAllJson.edges[0].node;
 	return (
 		<Root location={location}>
 			<main className={`${css(pst.main)} normal_font`}>
@@ -50,7 +50,7 @@ const renderProjects = (projects) => {
 };
 export const query = graphql`
 	query {
-		allJson {
+		allAllJson {
 			edges {
 				node {
 					id
@@ -90,150 +90,3 @@ export const query = graphql`
 		}
 	}
 `;
-
-// {
-//   allJson {
-//     edges {
-//       node {
-//         id
-//         currently_learning
-//       }
-//     }
-//   }
-// }
-// {
-/* this is going to be a grid of squares with nemes of category on them
-			(each square with bg img and dark transparent filter over them, on hover filter fades away) */
-// }
-
-// [{
-// 	"currently_learning":"Upgrading my Django/Python skills.\nLearning Django Channels.",
-// 	"skills":{
-// 		"programmer_skills":{
-// 			"category_name":"programmer_skills",
-// 			"set":[
-// 				{
-// 					"skill":"HTML5",
-// 					"desc":"Confident with the language",
-// 					"grade":"95%",
-// 					"color":"#e34f26"
-// 				},
-// 				{
-// 					"skill":"CSS3",
-// 					"desc":"Confident with the language",
-// 					"grade":"95%",
-// 					"color":"#0099e5"
-// 				},
-// 				{
-// 					"skill":"JavaScript",
-// 					"desc":"Confident with the language",
-// 					"grade":"90%",
-// 					"color":"#ffea11"
-// 				},
-// 				{
-// 					"skill":"React",
-// 					"desc":"Confident with jsx syntax,Redux & state management in general",
-// 					"grade":"90%",
-// 					"color":"#00d8ff"
-// 				},
-// 				{
-// 					"skill":"Gatsby",
-// 					"desc":"Confident with jsx syntax,Redux & state management in general",
-// 					"grade":"60%",
-// 					"color":"indigo"
-// 				},
-// 				{
-// 					"skill":"React Native",
-// 					"desc":"Confident with jsx syntax,Redux & state management in general",
-// 					"grade":"70%",
-// 					"color":"#006188"
-// 				},
-// 				{
-// 					"skill":"Node.js",
-// 					"desc":"Confident with jsx syntax,Redux & state management in general",
-// 					"grade":"60%",
-// 					"color":"#3ac21a"
-// 				},
-// 				{
-// 					"skill":"Express",
-// 					"desc":"Confident with jsx syntax,Redux & state management in general",
-// 					"grade":"60%",
-// 					"color":"lightgrey"
-// 				},
-// 				{
-// 					"skill":"Git",
-// 					"desc":"",
-// 					"grade":"70%",
-// 					"color":"#bd2c00"
-// 				},
-// 				{
-// 					"skill":"Python",
-// 					"desc":"Confident with jsx syntax,Redux & state management in general",
-// 					"grade":"80%",
-// 					"color":"#306998"
-// 				},
-// 				{
-// 					"skill":"Django",
-// 					"desc":"Confident with basic usage, database communication, REST Framework",
-// 					"grade":"50%",
-// 					"color":"green"
-// 				}
-
-// 			]
-// 		},
-// 		"human_languages":{
-// 			"category_name":"human_languages",
-// 			"set":[
-// 				{
-// 					"lang":"Russian",
-// 					"grade":"Native",
-// 					"color":"red"
-// 				},
-// 				{
-// 					"lang":"Serbian",
-// 					"grade":"Native",
-// 					"color":"blue"
-// 				},
-// 				{
-// 					"lang":"English",
-// 					"grade":"Fluent",
-// 					"color":"skyblue"
-// 				},
-// 				{
-// 					"lang":"Spanish",
-// 					"grade":"Beginner",
-// 					"color":"#fc0"
-// 				}
-// 			]
-// 		}
-
-// 	},
-// 	"projects":[
-// 		{
-// 			"title":"Poslonaut website",
-// 			"href":"https://www.poslonaut.rs/",
-// 			"desc":"Job searching website",
-// 			"other_contributors":[
-// 				{"name":"Milan Šarić", "href":"https://www.linkedin.com/in/milan-%C5%A1ari%C4%87/"},
-// 				{"name":"Pavle Popović", "href":"https://www.linkedin.com/in/pavle-popovi%C4%87-4718b9173/"}
-// 			]
-// 		},
-// 		{
-// 			"title":"Poslonaut kiosk job stand",
-// 			"href":"",
-// 			"desc":"Kiosk app for job searching",
-// 			"other_contributors":[
-// 				{"name":"Nemanja Stefanović", "href":"https://www.linkedin.com/in/nemanjastefanovic/"}
-// 			]
-// 		},
-// 		{
-// 			"title":"Poslonaut mobile app",
-// 			"href":"https://play.google.com/store/apps/details?id=com.devion.poslonaut&hl=en",
-// 			"desc":"Job searching mobile app",
-// 			"other_contributors":[
-// 				{"name":"Milan Šarić", "href":"https://www.linkedin.com/in/milan-%C5%A1ari%C4%87/"},
-// 				{"name":"Pavle Popović", "href":"https://www.linkedin.com/in/pavle-popovi%C4%87-4718b9173/"}
-// 			]
-// 		}
-// 	]
-// }]

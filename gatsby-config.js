@@ -28,7 +28,7 @@ module.exports = {
 		{
 			resolve: `gatsby-transformer-json`,
 			options: {
-				typeName: 'Json'
+				typeName: 'allJson'
 			}
 		},
 		{
