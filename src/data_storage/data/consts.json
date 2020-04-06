@@ -30,6 +30,12 @@
 						"color": "#00d8ff"
 					},
 					{
+						"skill": "Jest",
+						"desc": "",
+						"grade": "50%",
+						"color": "#10910e"
+					},
+					{
 						"skill": "Gatsby",
 						"desc": "Confident with jsx syntax,Redux & state management in general",
 						"grade": "60%",
@@ -38,8 +44,20 @@
 					{
 						"skill": "React Native",
 						"desc": "Confident with jsx syntax,Redux & state management in general",
-						"grade": "75%",
+						"grade": "90%",
 						"color": "#006188"
+					},
+					{
+						"skill": "Swift",
+						"desc": "",
+						"grade": "50%",
+						"color": "#fecb2e"
+					},
+					{
+						"skill": "XCode",
+						"desc": "",
+						"grade": "70%",
+						"color": "#235ee1"
 					},
 					{
 						"skill": "Node.js",
@@ -78,6 +96,11 @@
 						"lang": "English",
 						"grade": "Fluent",
 						"color": "skyblue"
+					},
+					{
+						"lang": "Spanish",
+						"grade": "Beginner",
+						"color": "orange"
 					}
 				]
 			}
@@ -150,6 +173,21 @@
 						"href": "https://www.linkedin.com/in/nemanjastefanovic/"
 					}
 				]
+			},
+			{
+				"title": "Open Expence Tracker",
+				"links_to_project": [
+					{
+						"label": "Code",
+						"href": "https://apps.apple.com/us/app/hireapp-hero/id1486745662"
+					},
+					{
+						"label": "Android",
+						"href": "https://play.google.com/store/apps/details?id=com.hireapphero&hl=es_US"
+					}
+				],
+				"desc": "Open source React Native expence tracker app",
+				"other_contributors": []
 			}
 		]
 	}

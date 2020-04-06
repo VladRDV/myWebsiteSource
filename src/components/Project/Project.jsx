@@ -10,10 +10,7 @@ const Project = ({ title, links, desc, contr }) => {
 			<hr className={`${css(ps.divider, ps.divider_1)}`} />
 			<p className={`${css(ps.alignCenter, ps.project_desc)}`}>{desc}</p>
 			<hr className={`${css(ps.divider, ps.divider_2)}`} />
-			<p className={`${css(ps.alignCenter, ps.other_contributors)}`}>
-				<span>{oth_str}</span>
-				{renderContributors(contr, title)}
-			</p>
+			{renderContributorsSection(oth_str, contr, title)}
 			<hr className={`${css(ps.divider, ps.divider_3)}`} />
 			<div className={`${css(ps.alignCenter, ps.bottom)}`}>
 				{links.map((el, ind) => (
@@ -29,6 +26,18 @@ const Project = ({ title, links, desc, contr }) => {
 			</div>
 		</li>
 	);
+};
+const renderContributorsSection = (oth_str, contr, title) => {
+	if (contr.length > 0) {
+		return (
+			<p className={`${css(ps.alignCenter, ps.other_contributors)}`}>
+				<span>{oth_str}</span>
+				{renderContributors(contr, title)}
+			</p>
+		);
+	} else {
+		return <p className={`${css(ps.alignCenter, ps.other_contributors)}`} />;
+	}
 };
 const renderContributors = (contrArr, title) =>
 	contrArr.map((el, ind, arr) => (
