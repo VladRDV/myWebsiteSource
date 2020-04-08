@@ -73,9 +73,15 @@
 					},
 					{
 						"skill": "Git",
-						"desc": "",
+						"desc": "Confident",
 						"grade": "70%",
 						"color": "#bd2c00"
+					},
+					{
+						"skill": "Problem solving",
+						"desc": "Really good",
+						"grade": "95%",
+						"color": "#268467"
 					}
 				]
 			},
