@@ -8,7 +8,8 @@ import SkillBar from '../components/SkillBar/SkillBar';
 import LangBar from '../components/LangBar/LangBar';
 
 export default ({ location, data }) => {
-	const content = data.allJson.edges[0].node;
+
+	const content = data.constsJson;
 	return (
 		<Root location={location}>
 			<main className={`${css(pst.main)} normal_font`}>
@@ -50,9 +51,7 @@ const renderProjects = (projects) => {
 };
 export const query = graphql`
 	query {
-		allJson {
-			edges {
-				node {
+		constsJson {
 					id
 					currently_learning
 					skills {
@@ -86,8 +85,8 @@ export const query = graphql`
 						}
 					}
 				}
-			}
-		}
+			
+		
 	}
 `;
 
